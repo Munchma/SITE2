@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: "Linux Libertine", Georgia, "Times New Roman", Times, serif;
+  background-color: #f8f9fa;
+  color: #202122;
+  line-height: 1.6;
+}
+
+/* Link Styling */
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Base */
+#mw-page-base,
+#mw-head-base {
+  background-color: #f8f9fa;
+}
+
+/* Top Header */
+#mw-head {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #a2a9b1;
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#p-logo img {
+  height: 40px;
+}
+
+/* Search Form */
+#search-container {
+  flex-grow: 1;
+  text-align: right;
+}
+#search-container input[type="search"] {
+  padding: 4px;
+  font-size: 1em;
+}
+
+/* Sidebar Navigation */
+#mw-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  background-color: #f8f9fa;
+  border-right: 1px solid #a2a9b1;
+  padding: 1em;
+  overflow-y: auto;
+}
+#mw-panel h3 {
+  font-size: 1.1em;
+  margin: 1em 0 0.5em;
+}
+#mw-panel .portal .body ul {
+  list-style: none;
+  padding-left: 0;
+}
+#mw-panel .portal .body ul li {
+  margin-bottom: 0.3em;
+}
+
+/* Main Content Area */
+#content {
+  margin-left: 240px;
+  padding: 1em 2em;
+  max-width: 800px;
+}
+.firstHeading {
+  font-size: 2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  padding-bottom: 0.1em;
+  border-bottom: 1px solid #a2a9b1;
+}
+#siteSub {
+  font-size: 0.9em;
+  color: #6a6a6a;
+  margin-bottom: 1em;
+}
+.mw-parser-output p {
+  margin: 0.8em 0;
+}
+.mw-headline {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 0.2em;
+}
+
+/* Footer */
+#footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #a2a9b1;
+  padding: 1em 2em;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 2em;
+}
+#f-list ul {
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+#f-list ul li {
+  display: inline;
+  margin: 0 0.5em;
+}
+#f-poweredby {
+  margin-top: 0.5em;
+}
