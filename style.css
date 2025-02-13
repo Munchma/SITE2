@@ -179,3 +179,12 @@ h2 {
   margin-top: 8px;
   color: #999;
 }
+/* Style for the inserted Emily Mandamin image */
+.mandamin-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
